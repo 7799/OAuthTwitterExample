@@ -15,8 +15,8 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
         OAuthConsumer consumer = new DefaultOAuthConsumer(
-                "tpR2vuyW5e47iQtuHRrm3PQun",
-                "SQfGSawnyO3iG8GOS6Y9xgKUA339dBMBtcLtypRFnUhUd1VWYG",
+                "tpR2vuyW5e47iQtuHRrm3",
+                "SQfGSawnyO3iG8GOS6Y9xgKUA339dBMBtcLtypRFnUhUd1",
                 SignatureMethod.HMAC_SHA1);
 
         OAuthProvider provider = new DefaultOAuthProvider(consumer,
